@@ -8,7 +8,7 @@ Project is created with:
 * css
 
 ## Setup
-$ git clone https://github.com/Nikemaks/infinite_scrolling.git
-Open index.html in browser.
+* `$ git clone https://github.com/Nikemaks/infinite_scrolling.git`
+* Open index.html in browser.
 
 ## Demo
