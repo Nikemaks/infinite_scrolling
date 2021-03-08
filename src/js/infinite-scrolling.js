@@ -1,3 +1,12 @@
+/**
+ * Class for create infinite scrolling (lazy loading) of images in a page - deferred fetching of images until the user
+ * scrolls near the end of the list.
+ * @param url {String} - url address for loading images.json, example json field:
+ *              {"name": "joda", "alt": "joda", "url": "assets/joda.jpeg"},
+ * @param target {String} - className which user scrolls near the end of the list.
+ * @param insertElement {String} - className for insert new items.
+ * */
+
 export default class InfiniteScrolling {
     constructor(url, target, insertElement) {
         this.url = url;
