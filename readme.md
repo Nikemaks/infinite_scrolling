@@ -6,6 +6,7 @@ Project is created with:
 * JavaScript(ES6).
 * html
 * css
+* dev server - webpack.
 
 ## Setup
 * `$ git clone https://github.com/Nikemaks/infinite_scrolling.git`
