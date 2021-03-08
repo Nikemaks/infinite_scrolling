@@ -1,8 +1,8 @@
 [
-  {"name": "joda", "alt": "joda", "url": "img/joda.jpeg"},
-  {"name": "batterfly", "alt": "batterfly", "url": "img/batterfly.jpg"},
-  {"name": "brain", "alt": "brain", "url": "img/brain.jpg"},
-  {"name": "joda", "alt": "joda", "url": "img/joda.jpeg"},
-  {"name": "brain", "alt": "brain", "url": "img/brain.jpg"},
-  {"name": "globe", "alt": "globe", "url": "img/globe.jpg"}
+  {"name": "joda", "alt": "joda", "url": "assets/joda.jpeg"},
+  {"name": "batterfly", "alt": "batterfly", "url": "assets/butterfly.jpg"},
+  {"name": "brain", "alt": "brain", "url": "assets/brain.jpg"},
+  {"name": "joda", "alt": "joda", "url": "assets/joda.jpeg"},
+  {"name": "brain", "alt": "brain", "url": "assets/brain.jpg"},
+  {"name": "globe", "alt": "globe", "url": "assets/globe.jpg"}
 ]

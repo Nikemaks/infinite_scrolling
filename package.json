@@ -1,0 +1,41 @@
+{
+  "name": "infinite_scrolling",
+  "version": "1.0.0",
+  "description": "Infinite scrolling (lazy loading) of images in a page - deferred fetching of images until the user scrolls near the end of the list.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack-dev-server  --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikemaks/infinite_scrolling.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Maxim Maliy",
+  "bugs": {
+    "url": "https://github.com/Nikemaks/infinite_scrolling/issues"
+  },
+  "homepage": "https://github.com/Nikemaks/infinite_scrolling#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
