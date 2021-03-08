@@ -13,4 +13,4 @@ Project is created with:
 * `$ cd infinite_scrolling`
 * `$ npm i`
 * `$ npm run start`
-* `Open in browser http://localhost:4200/`
+* Open in browser [https://localhost:4200/](https://localhost:4200/)
