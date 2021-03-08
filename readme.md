@@ -8,7 +8,7 @@ Project is created with:
 * css
 * dev server - webpack.
 
-## Setup
+## Installation
 * `$ git clone https://github.com/Nikemaks/infinite_scrolling.git`
 * `$ cd infinite_scrolling`
 * `$ npm i`
