@@ -10,5 +10,5 @@ Project is created with:
 
 ## Setup
 * `$ git clone https://github.com/Nikemaks/infinite_scrolling.git`
-* `npm i`
-* `npm run start`
+* `$ npm i`
+* `$ npm run start`
