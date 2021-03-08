@@ -40,8 +40,8 @@ export default class InfiniteScrolling {
 
         this.loadItems().then(items => {
             items.forEach(item => {
-                const {div, img, paragraph} = this.createNewItem(item);
-                this.printNewItem(div, img, paragraph);
+                const newItem = this.createNewItem(item);
+                this.printNewItem(newItem);
             })
         });
     }
@@ -53,24 +53,12 @@ export default class InfiniteScrolling {
     }
 
     createNewItem(item) {
-        const div = document.createElement('div');
-        const img = document.createElement('img');
-        const paragraph = document.createElement('p');
-        div.classList.add('item');
-        img.setAttribute('src', item.url);
-        img.setAttribute('alt', item.alt);
-        paragraph.innerHTML = item.name;
-        return {
-            div,
-            img,
-            paragraph
-        };
+        const template = ({url, alt, name}) => `<div class="item"><img src="${url}" alt="${alt}"><p>${name}</p></div>`;
+        return template(item);
     }
 
-    printNewItem(div, img, paragraph) {
-        const newBlock = this.insertElement.appendChild(div);
-        newBlock.appendChild(img);
-        newBlock.appendChild(paragraph);
+    printNewItem(newItem) {
+        this.insertElement.insertAdjacentHTML('beforeend', newItem);
     }
 
     unsubscribe() {
